@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Building, Home, Wand2, FileText, Download } from 'lucide-react';
+import { Building, Home as HomeIcon, Wand2, FileText, Download } from 'lucide-react';
 import DescriptionForm from '@/components/DescriptionForm';
 import FloorPlanCanvas from '@/components/FloorPlanCanvas';
 import BeforeAfterComparison from '@/components/BeforeAfterComparison';
@@ -148,7 +148,7 @@ export default function Home() {
                   <div className={`flex items-center gap-2 px-3 py-2 rounded-md ${
                     afterPlan ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-600'
                   }`}>
-                    <Home className="h-4 w-4" />
+                    <HomeIcon className="h-4 w-4" />
                     After Plan {afterPlan ? '✓' : ''}
                   </div>
                   {beforePlan && afterPlan && (
