@@ -1,0 +1,35 @@
+🚀 **AFH WABO Floor Plan AI - Team Invitation**
+
+Hi [Team Member Name],
+
+Welcome to the AFH WABO Floor Plan AI development team! I'm excited to have you join us in building this innovative AI-powered floor plan generation tool.
+
+**🔗 Repository Access:**
+https://github.com/henrynkoh/AFH-WABO
+
+**📚 Essential Documentation:**
+• README: https://github.com/henrynkoh/AFH-WABO/blob/main/README.md
+• User Manual: https://github.com/henrynkoh/AFH-WABO/blob/main/USER_MANUAL.md
+• Quick Start: https://github.com/henrynkoh/AFH-WABO/blob/main/QUICK_START_GUIDE.md
+• Team Onboarding: https://github.com/henrynkoh/AFH-WABO/blob/main/TEAM_ONBOARDING.md
+
+**🚀 Quick Setup:**
+1. Clone: git clone git@github.com:henrynkoh/AFH-WABO.git
+2. Install: npm install
+3. Start: npm run dev
+4. Access: http://localhost:3000
+
+**📋 Next Steps:**
+1. Read the Team Onboarding guide
+2. Follow the Quick Start guide
+3. Explore the User Manual
+4. Start contributing!
+
+**📞 Support:**
+• Issues: https://github.com/henrynkoh/AFH-WABO/issues
+• Discussions: https://github.com/henrynkoh/AFH-WABO/discussions
+
+Looking forward to working with you!
+
+Best regards,
+[Your Name]
