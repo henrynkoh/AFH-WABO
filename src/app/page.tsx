@@ -5,7 +5,7 @@ import { Building, Home as HomeIcon, Wand2, FileText, Download } from 'lucide-re
 import DescriptionForm from '@/components/DescriptionForm';
 import FloorPlanCanvas from '@/components/FloorPlanCanvas';
 import BeforeAfterComparison from '@/components/BeforeAfterComparison';
-import { generateFloorPlanFromDescription, analyzeWABOCompliance, FloorPlanData } from '@/lib/openai';
+import { generateFloorPlanFromDescription, analyzeWABOCompliance, FloorPlanData } from '@/lib/openai-mock';
 
 export default function Home() {
   const [beforePlan, setBeforePlan] = useState<FloorPlanData | null>(null);
