@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { CheckCircle, XCircle, AlertTriangle, Info } from 'lucide-react';
-import { FloorPlanData } from '@/lib/openai';
+import { FloorPlanData } from '@/lib/openai-mock';
 
 interface ComplianceCheckerProps {
   floorPlan: FloorPlanData;

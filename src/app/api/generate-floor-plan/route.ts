@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { generateFloorPlanFromDescription, analyzeWABOCompliance } from '@/lib/openai';
+import { generateFloorPlanFromDescription, analyzeWABOCompliance } from '@/lib/openai-mock';
 
 export async function POST(request: NextRequest) {
   try {

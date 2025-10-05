@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useRef, useEffect, useState } from 'react';
-import { FloorPlanData, Room, Wall, Door, Window } from '@/lib/openai';
+import { FloorPlanData, Room, Wall, Door, Window } from '@/lib/openai-mock';
 
 interface FloorPlanCanvasProps {
   floorPlan: FloorPlanData;

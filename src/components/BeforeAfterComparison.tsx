@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight, RotateCcw, Download, Maximize2 } from 'lucide-react';
 import FloorPlanCanvas from './FloorPlanCanvas';
 import ComplianceChecker from './ComplianceChecker';
-import { FloorPlanData } from '@/lib/openai';
+import { FloorPlanData } from '@/lib/openai-mock';
 
 interface BeforeAfterComparisonProps {
   beforePlan: FloorPlanData | null;
