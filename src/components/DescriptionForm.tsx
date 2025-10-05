@@ -4,7 +4,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Wand2, Building, Home } from 'lucide-react';
+import { Wand2, Building, Home as HomeIcon } from 'lucide-react';
 
 const descriptionSchema = z.object({
   description: z.string().min(10, 'Description must be at least 10 characters'),
@@ -78,7 +78,7 @@ const DescriptionForm: React.FC<DescriptionFormProps> = ({ onSubmit, isLoading }
                 {...register('planType')}
                 className="mr-2"
               />
-              <Home className="h-4 w-4 mr-1" />
+              <HomeIcon className="h-4 w-4 mr-1" />
               After (WABO Compliant)
             </label>
           </div>
